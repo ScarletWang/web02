@@ -1,0 +1,294 @@
+/*-----------------共用區 -----------------------*/
+body,html{width: 100%;height: 100%;-webkit-text-size-adjust:none;}
+.wrapper{width: 100%;height: auto;margin: auto;position: relative;}
+@font-face{
+	font-family: Bradley Hand;
+	src:url(../css/Bradley_Hand_ITC.ttf);
+}
+
+/*----------------------桌機-----------------------------*/
+@media screen and (min-width:1024px){
+/*------------------------1-------------------------------*/
+
+.wrapper header { width: 100%;height: 600px;background-image: url(../images/01.jpg);background-repeat: no-repeat;
+background-size: cover;	background-position: center;position: relative;}
+.wrapper header h1{background:rgba(255,255,255,0.3);width:40%;height:20%;border-radius:10px;text-align: center;line-height: 1.8em;position: absolute;top:50px;left: 0;right: 0;bottom: 0;margin: auto;font-size: 35px;color: black;font-family:Bradley Hand;z-index: 999;}
+.wrapper header img{position:absolute;top:-45px;left:0;right:0;bottom: 0;margin: auto;}
+.wrapper header .open {display:block;width:50px;height:50px;text-indent:-9999px;background-image:url(../images/menu.png);background-size:100% auto;background-position:center top;background-repeat:no-repeat;position:absolute;
+right:1%;top:2%;z-index:1000;cursor: pointer;}
+/*.wrapper header .close {display:block;width:40px;height:40px;background-image:url(../images/close.png);background-size:100% auto;background-position:center top;background-repeat:no-repeat;position: absolute;top:110px;right: 360px;z-index:1000;cursor: pointer;}
+*/
+.wrapper header nav{width: 530px;height: 430px;position: absolute;top:0;left: 0;right: 0;bottom: 0;
+margin: auto;border-radius: 10px;}
+.wrapper header nav .close{display:block;width:40px;height:40px;background-image:url(../images/close.png);
+	background-size:100% auto;background-position:center top;background-repeat:no-repeat;position: absolute;top:60px;right: 20px;z-index:1000;cursor: pointer;
+
+}
+.wrapper header nav ul{width: 100%;height: 100%;background:rgba(0,0,0,0.4);top:10%;}
+.wrapper header nav ul li{width: 60%;height: 55px;border-bottom:dotted 1px #fff;position:relative;text-align: center;background-color: #000000;top:40px;left: 0;right: 0;bottom: 0;
+margin: auto;z-index: 9999;margin-top: 40px;}
+.wrapper header nav ul li a{display:block;width: 100%;	height:100%;color:#fff;text-decoration:none;font-size:30px;line-height:2em;text-align: center;}
+
+
+.wrapper header .box{width: 10%;height: 20%;position: fixed;top:200px;z-index: 9999;}
+.wrapper header .box ul{width: 80px;height: 80px;position: relative;}
+.wrapper header .box ul li{width: 40%;height: 40%;border-radius: 50%;background-color: #000000;z-index: 1000;margin-bottom: 30%;margin-left:20%;color: white;line-height:2em;text-align: center;}
+.wrapper header .box ul li:hover{background-color: #26D9B9;}
+.wrapper header .box ul li a{color: white;text-decoration: none;}
+.wrapper header .top{display:block;width:45px;height:45px;text-indent:-9999px;/*background-image:url(images/top.png);*/	background-size:100% auto;background-position:center top;background-repeat:no-repeat;position:fixed;
+right:3%;bottom:15px;z-index:1500;}
+
+
+
+/*facebook Youtube*/
+
+.wrapper header aside{width: 30%;height:auto;position:absolute;left:5%;bottom:-20px;}
+.wrapper header aside ul{width: 100%;height: auto;}
+.wrapper header aside ul li{width: 20%;height: auto;position:relative;float:left;}
+.wrapper header aside ul li a{width: 100%;display: block;position: relative;}
+.wrapper header aside ul li a img{position: relative;}
+
+/*facebookYoutube*/
+
+
+/*-------------2---------------------*/
+
+.flexbox {-webkit-border-radius: 2px;border-radius: 2px;display: -webkit-box;display: -moz-box;display: -o-box;display: -ms-box;display: box;font-family: sans-serif;}
+
+.flexbox-item {background: #6cf;-webkit-border-radius: 2px;border-radius: 2px;color: #fff;height: 2em;
+line-height: 2.5em;margin: 2em;text-align: center;width: 20%;height: 80px;font-size: 16px;}
+.flexbox-item:hover{background-color: #FF9947;}
+
+.flexbox-pack-center {-webkit-box-pack: center;-moz-box-pack: center;-o-box-pack: center;-ms-box-pack: center;-webkit-box-pack: center;	-moz-box-pack: center;-ms-box-pack: center;box-pack: center;}
+.wrapper h3{width: 100%;height: 10%;text-align: center;position: relative;margin-top: 2%;margin-bottom: 5%;font-family: Bradley Hand;font-size: 20px;}
+/*-----------------------3----------------------*/
+.wrapper .banner{width: 100%;height: 600px;background-image: url(../images/02.jpg);background-repeat: no-repeat;background-size: cover;	background-position: center;position: relative;z-index:1;}
+.wrapper .banner h2{width: 100%;position: relative;font-size: 30px;color: black;font-family:Bradley Hand;z-index: 999;top: 15%;text-align: center;}
+.wrapper .banner section{width: 100%;height:auto;margin-top: 300px;display:flex;justify-content:flex-start;flex-wrap:wrap;position: relative;}
+.wrapper .banner section figure{width: 25%;min-height:50px;overflow:hidden;float:left;position:relative;margin-bottom:1%;}
+.wrapper .banner section figure img{display:block;width:50%;height:auto;margin:auto;cursor:pointer;}
+.wrapper .banner section figure img:hover{width: 60%;} 
+.wrapper .banner section figure figcaption{	width:75%;height:200px;	overflow:hidden;margin:auto;color:#fff;
+position:relative;left:0;bottom:-20px;z-index:9999;font-size:16px;text-align: center;font-family: Bradley Hand;padding:5px;box-sizing:border-box;}
+/*-------------------------4---------------------------------*/
+.wrapper .box2{width: 100%;height: 400px; }
+.wrapper .box2 h2{width: 100%;position: relative;font-size: 30px;color: black;font-family:Bradley Hand;z-index: 999;top: 15%;text-align: center;}
+.wrapper .box2 section{width: 100%;height:auto;margin-top: 150px;display:flex;justify-content:flex-start;flex-wrap:wrap;position: relative;}
+.wrapper .box2 section figure{width: 25%;min-height:50px;overflow:hidden;float:left;position:relative;
+margin-bottom:1%;}
+.wrapper .box2 section figure img{display:block;width:50%;height:auto;margin:auto;cursor:pointer;}
+.wrapper .box2 section figure img:hover{opacity:0.2;-moz-opacity:0.5;}
+
+
+
+
+.wrapper .box2 section figure  figcaption{width:75%;height:200px;overflow:hidden;margin:auto;color:#020202;
+position:relative;left:0;bottom:-5px;z-index:9999;font-size:16px;text-align: center;font-family: Bradley Hand;padding:5px;box-sizing:border-box;}
+/*------------------------5---------------------------------*/
+.wrapper footer{width: 100%;height: 600px;background-image: url(../images/03.jpg);background-repeat: no-repeat;
+background-size: cover;	background-position: center;position: relative;}
+.wrapper footer h2 {width: 100%;position: absolute;font-size: 30px;color: black;font-family:Bradley Hand;z-index: 999;top: 5%;text-align: center;}
+.wrapper footer h3{width: 50%;position: relative;left:25%;font-size: 16px;color: #26D9B9;top: 20%;text-align: center;margin-bottom:5px;font-family:Arial;line-height:2em; background:rgba(0,0,0,0.3);
+border-radius: 10px;
+}
+.wrapper footer img{max-width:1.5%;position: relative;top:125px;left: 50%;}
+.wrapper footer h4{width: 100%;height: auto; position: absolute;bottom: 10%;font-size: 64px;color: #FFFF00;text-align: center;font-family: Bradley Hand;}
+
+}
+
+/*--------------ipad------------------*/
+@media screen and (min-width:761px) and (max-width:1023px){
+
+.wrapper header { width: 100%;height: 300px;background-image: url(../images/01.jpg);background-repeat: no-repeat;
+background-size: cover;	background-position: center;position: relative;}
+.wrapper header h1{background:rgba(255,255,255,0.3);width:50%;height:40%;border-radius:10px;text-align: center;line-height: 1.8em;position: absolute;top:50px;left: 0;right: 0;bottom: 0;margin: auto;font-size: 35px;color: black;font-family:Bradley Hand;z-index: 999;}
+.wrapper header img{width: 20%;position:absolute;top:-45px;left:0;right:0;bottom: 0;margin: auto;}
+.wrapper header .open {display:block;width:50px;height:50px;text-indent:-9999px;background-image:url(../images/menu.png);background-size:100% auto;background-position:center top;background-repeat:no-repeat;position:absolute;
+right:1%;top:2%;z-index:1000;cursor: pointer;}
+/*.wrapper header .close {display:block;width:40px;height:40px;background-image:url(../images/close.png);
+	background-size:100% auto;background-position:center top;background-repeat:no-repeat;position: absolute;top:0;right: 150px;z-index:1000;cursor: pointer;}*/
+
+.wrapper header nav{width: 600px;height: 430px;position: absolute;top:20px;left: 0;right: 0;bottom: 0;
+margin: auto;border-radius: 10px;}
+.wrapper header nav .close{display:block;width:40px;height:40px;background-image:url(../images/close.png);
+	background-size:100% auto;background-position:center top;background-repeat:no-repeat;position: absolute;top:60px;right: 20px;z-index:1000;cursor: pointer;
+
+}
+
+.wrapper header nav ul{width: 100%;height: 100%;background:rgba(0,0,0,0.4);top:10%;}
+.wrapper header nav ul li{width: 60%;height: 55px;border-bottom:dotted 1px #fff;position:relative;text-align: center;background-color: #000000;top:40px;left: 0;right: 0;bottom: 0;
+margin: auto;z-index: 9999;margin-top: 40px;}
+.wrapper header nav ul li a{display:block;width: 100%;	height:100%;color:#fff;text-decoration:none;font-size:30px;line-height:2em;text-align: center;}
+
+
+.wrapper header .box{width: 10%;height: 20%;position: fixed;top:200px;z-index: 9999;}
+.wrapper header .box ul{width: 80px;height: 80px;position: relative;}
+.wrapper header .box ul li{width: 40%;height: 40%;border-radius: 50%;background-color: #000000;z-index: 1000;margin-bottom: 30%;margin-left:20%;color: white;line-height:2em;text-align: center;}
+.wrapper header .box ul li:hover{background-color: #26D9B9;}
+.wrapper header .box ul li a{color: white;text-decoration: none;}
+.wrapper header .top{display:block;width:100px;height:100px;text-indent:-9999px;/*background-image:url(images/top.png);*/	background-size:100% auto;background-position:center top;background-repeat:no-repeat;position:fixed;
+right:-2%;bottom:40px;z-index:1500;}
+.wrapper header .top a{display: block;}
+.wrapper header .top a img{ position: absolute;width: 50%; }
+
+
+
+/*facebook Youtube*/
+
+.wrapper header aside{width: 40%;height:auto;position:absolute;left:35%;bottom:-30px;}
+.wrapper header aside ul{width: 100%;height: auto;}
+.wrapper header aside ul li{width: 30%;height: auto; float:left;}
+.wrapper header aside ul li a{width: 100%;display: block;}
+.wrapper header aside ul li a img{position: relative;  width: 40px; height: 40px;}
+
+/*facebookYoutube*/
+
+
+/*-------------2---------------------*/
+
+.flexbox {-webkit-border-radius: 2px;border-radius: 2px;display: -webkit-box;display: -moz-box;display: -o-box;display: -ms-box;display: box;font-family: sans-serif;}
+
+.flexbox-item {background: #6cf;-webkit-border-radius: 2px;border-radius: 2px;color: #fff;height: 2em;
+line-height: 2.5em;margin: 2em;text-align: center;width: 30%;height: 80px;font-size: 16px;}
+.flexbox-item:hover{background-color: #FF9947;}
+
+.flexbox-pack-center {-webkit-box-pack: center;-moz-box-pack: center;-o-box-pack: center;-ms-box-pack: center;-webkit-box-pack: center;	-moz-box-pack: center;-ms-box-pack: center;box-pack: center;}
+.wrapper h3{width: 100%;height: 10%;text-align: center;position: relative;margin-top: 2%;margin-bottom: 5%;font-family: Bradley Hand;font-size: 18px;}
+/*-----------------------3----------------------*/
+.wrapper .banner{width: 100%;height: 600px;background-image: url(../images/02.jpg);background-repeat: no-repeat;background-size: cover;	background-position: center;position: relative;z-index:1;}
+.wrapper .banner h2{width: 100%;position: relative;font-size: 30px;color: black;font-family:Bradley Hand;z-index: 999;top: 15%;text-align: center;}
+.wrapper .banner section{width: 100%;height:auto;margin-top: 300px;display:flex;justify-content:flex-start;flex-wrap:wrap;position: relative;}
+.wrapper .banner section figure{width: 25%;min-height:50px;overflow:hidden;float:left;position:relative;margin-bottom:1%;}
+.wrapper .banner section figure img{display:block;width:70%;height:auto;margin:auto;cursor:pointer;}
+.wrapper .banner section figure img:hover{width: 80%;} 
+.wrapper .banner section figure figcaption{	width:75%;height:200px;	overflow:hidden;margin:auto;color:#fff;
+position:relative;left:0;bottom:-20px;z-index:9999;font-size:16px;text-align: center;font-family: Bradley Hand;padding:5px;box-sizing:border-box;}
+/*-------------------------4---------------------------------*/
+.wrapper .box2{width: 100%;height: 400px; }
+.wrapper .box2 h2{width: 100%;position: relative;font-size: 30px;color: black;font-family:Bradley Hand;z-index: 999;top: 15%;text-align: center;}
+.wrapper .box2 section{width: 100%;height:auto;margin-top: 150px;display:flex;justify-content:flex-start;flex-wrap:wrap;position: relative;}
+.wrapper .box2 section figure{width: 25%;min-height:50px;overflow:hidden;float:left;position:relative;
+margin-bottom:1%;}
+.wrapper .box2 section figure img{display:block;width:70%;height:auto;margin:auto;cursor:pointer;}
+.wrapper .box2 section figure img:hover{opacity:0.2;-moz-opacity:0.5;}
+
+
+
+
+.wrapper .box2 section figure  figcaption{width:75%;height:200px;overflow:hidden;margin:auto;color:#020202;
+position:relative;left:0;bottom:-5px;z-index:9999;font-size:16px;text-align: center;font-family: Bradley Hand;padding:5px;box-sizing:border-box;}
+/*------------------------5---------------------------------*/
+.wrapper footer{width: 100%;height: 600px;background-image: url(../images/03.jpg);background-repeat: no-repeat;
+background-size: cover;	background-position: center;position: relative;}
+.wrapper footer h2 {width: 100%;position: absolute;font-size: 30px;color: black;font-family:Bradley Hand;z-index: 999;top: 5%;text-align: center;}
+.wrapper footer h3{width: 60%;position: relative;left:20%;font-size: 16px;color: #26D9B9;top: 20%;text-align: center;margin-bottom:5px;font-family:Arial;line-height:2em; background:rgba(0,0,0,0.3);
+border-radius: 10px;
+}
+.wrapper footer img{max-width:1.5%;position: relative;top:125px;left: 50%;}
+.wrapper footer h4{width: 100%;height: auto; position: absolute;bottom: 10%;font-size: 64px;color: #FFFF00;text-align: center;font-family: Bradley Hand;}
+
+}
+
+
+
+
+/*==================手機==================*/
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+
+.wrapper header { width: 100%;height: 180px;background-image: url(../images/01.jpg);background-repeat: no-repeat;
+background-size: cover;	background-position: center;position: relative;}
+
+
+
+.wrapper header h1{background:rgba(255,255,255,0.3);width:70%;height:40%;border-radius:10px;text-align: center;line-height: 1.5em;position: absolute;top:20px;left: 0;right: 0;bottom: 0;margin: auto;font-size: 25px;color: black;font-family:Bradley Hand;z-index: 999;}
+.wrapper header img{width: 15%;position:absolute;top:-45px;left:0;right:0;bottom: 0;margin: auto;}
+.wrapper header .open {display:block;width:50px;height:50px;text-indent:-9999px;background-image:url(../images/menu.png);background-size:100% auto;background-position:center top;background-repeat:no-repeat;position:absolute;
+right:1%;top:2%;z-index:1000;cursor: pointer;}
+/*.wrapper header .close {display:block;width:40px;height:40px;background-image:url(../images/close.png);background-size:100% auto;background-position:center top;background-repeat:no-repeat;position: absolute;top:0px;right: 50px;z-index:10000;cursor: pointer;}
+*/
+.wrapper header nav{width: 400px;height: 430px;position: absolute;top:150px;left: 0;right: 0;bottom: 0;
+margin: auto;border-radius: 10px;}
+.wrapper header nav .close{display:block;width:40px;height:40px;background-image:url(../images/close.png);
+	background-size:100% auto;background-position:center top;background-repeat:no-repeat;position: absolute;top:60px;right: 20px;z-index:1000;cursor: pointer;
+
+}
+.wrapper header nav ul{width: 100%;height: 100%;background:rgba(0,0,0,0.4);top:10%;}
+.wrapper header nav ul li{width: 60%;height: 55px;border-bottom:dotted 1px #fff;position:relative;text-align: center;background-color: #000000;top:40px;left: 0;right: 0;bottom: 0;
+margin: auto;z-index: 9999;margin-top: 40px;}
+.wrapper header nav ul li a{display:block;width: 100%;	height:100%;color:#fff;text-decoration:none;font-size:30px;line-height:2em;text-align: center;}
+
+
+.wrapper header .box{width: 10%;height: auto;position: fixed;top:200px;z-index: 9999;}
+.wrapper header .box ul{width: 80px;height: 80px;position: relative;}
+.wrapper header .box ul li{width: 40%;height: 40%;border-radius: 50%;background-color: #000000;z-index: 1000;margin-bottom: 30%;margin-left:20%;color: white;line-height:2em;text-align: center;}
+.wrapper header .box ul li:click{background-color: #26D9B9;}
+.wrapper header .box ul li a{color: white;text-decoration: none;}
+.wrapper header .top{display:block;width:100px;height:100px;text-indent:-9999px;/*background-image:url(images/top.png);*/	background-size:100% auto;background-position:center top;background-repeat:no-repeat;position:fixed;
+bottom:140px;right: -20px;z-index:1500;}
+.wrapper header .top a{display: block;}
+.wrapper header .top a img{ position: absolute;width: 50%; } 
+
+
+
+/*facebook Youtube*/
+
+.wrapper header aside{width: 100%;height:auto;position:absolute;left:0%;bottom:-40px;}
+.wrapper header aside ul{width: 100%;height: auto;}
+.wrapper header aside ul li{width: 100%;height: auto;position:relative;float:left;}
+.wrapper header aside ul li a{width: 80%;display: block;position: relative;}
+.wrapper header aside ul li a img{position: relative;}
+
+/*facebookYoutube*/
+
+
+/*-------------2---------------------*/
+
+.wrapper .flexbox {width: 100%;height: auto;-webkit-border-radius: 2px;border-radius: 2px;display: -webkit-box;display: -moz-box;display: -o-box;display: -ms-box;display: box;font-family: sans-serif;display:flex;justify-content:flex-start;flex-wrap:wrap;position: relative;}
+.wrapper .flexbox-pack-center {-webkit-box-pack: center;-moz-box-pack: center;-o-box-pack: center;-ms-box-pack: center;-webkit-box-pack: center;	-moz-box-pack: center;-ms-box-pack: center;box-pack: center;}
+.wrapper .flexbox .flexbox-item {background: #6cf;-webkit-border-radius: 2px;border-radius: 2px;color: #fff;height: 2em;
+line-height: 2.5em;text-align: center;width:60%;height: 80px;font-size: 14px;position: relative;top:20px;margin: auto;margin-bottom: 20px;
+        
+		
+		}
+.wrapper .flexbox .flexbox-item:hover{background-color: #FF9947;}
+
+
+.wrapper h3{width: 70%;height: 10%;text-align: center;position: relative;margin:25px auto 20px auto;font-family: Bradley Hand;font-size: 16px;}
+/*-----------------------3----------------------*/
+.wrapper .banner{width: 100%;height: auto;background-image: url(../images/02.jpg);background-repeat: no-repeat;background-size: cover;	background-position: center;position: relative;z-index:1;}
+.wrapper .banner h2{width: 100%;position: relative;font-size: 30px;color: black;font-family:Bradley Hand;z-index: 999;top: 50px;text-align: center;}
+.wrapper .banner section{width: 100%;height:auto;margin-top: 300px;display:flex;justify-content:flex-start;flex-wrap:wrap;position: relative;}
+.wrapper .banner section figure{width: 100%;min-height:20px;overflow:hidden;float:left;position:relative;margin-bottom:1%;}
+.wrapper .banner section figure img{display:block;width:30%;height:auto;margin:auto;cursor:pointer;}
+.wrapper .banner section figure img:click{width: 60%;} 
+.wrapper .banner section figure figcaption{	width:75%;height:50px;	overflow:hidden;margin:auto;color:#fff;
+position:relative;left:0;bottom:-20px;z-index:9999;font-size:16px;text-align: center;font-family: Bradley Hand;padding:5px;box-sizing:border-box;}
+/*-------------------------4---------------------------------*/
+.wrapper .box2{width: 100%;height: auto; }
+.wrapper .box2 h2{width: 100%;position: relative;font-size: 30px;color: black;font-family:Bradley Hand;z-index: 999;top: 50px;text-align: center;}
+.wrapper .box2 section{width: 100%;height:auto;margin-top: 150px;display:flex;justify-content:flex-start;flex-wrap:wrap;position: relative;}
+.wrapper .box2 section figure{width: 100%;min-height:50px;overflow:hidden;float:left;position:relative;
+margin-bottom:1%;}
+.wrapper .box2 section figure img{display:block;width:40%;height:auto;margin:auto;cursor:pointer;}
+.wrapper .box2 section figure img:click{opacity:0.2;-moz-opacity:0.5;}
+
+
+
+
+.wrapper .box2 section figure  figcaption{width:75%;height:50px;overflow:hidden;margin:auto;color:#020202;
+position:relative;left:0;bottom:-5px;z-index:9999;font-size:16px;text-align: center;font-family: Bradley Hand;padding:5px;box-sizing:border-box;}
+/*------------------------5---------------------------------*/
+.wrapper footer{width: 100%;height: 800px;background-image: url(../images/03.jpg);background-repeat: no-repeat;
+background-size: cover;	background-position: center;position: relative;}
+.wrapper footer h2 {width: 100%;position: absolute;font-size: 28px;color: black;font-family:Bradley Hand;z-index: 999;top: 5%;text-align: center;}
+.wrapper footer h3{width: 80%;height: 90px; position: relative;left:4%;font-size: 16px;color: #26D9B9;top: 20%;text-align: center;margin-bottom:5px;font-family:Arial;line-height:2em; background:rgba(0,0,0,0.3);
+border-radius: 10px;
+}
+.wrapper footer img{max-width:4%;position: relative;top:160px;left: 50%;}
+.wrapper footer h4{width: 100%;height: auto; position: absolute;bottom: 10%;font-size: 32px;color: #FFFF00;text-align: center;font-family: Bradley Hand;}
+
+}
+
+
+	
+
